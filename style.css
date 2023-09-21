@@ -134,3 +134,17 @@
         display: none;
     }
 }
+@media(width<=250px){
+    .promotion{
+        height: 70px;
+    }
+    .promotion_h1{
+        font-size: 7px;
+    }
+    .promotion_p{
+        font-size: 3px;
+    }
+    #objetion{
+        font-size: 3px;
+    }
+}
