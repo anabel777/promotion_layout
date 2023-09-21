@@ -1,0 +1,136 @@
+/*PROMOTIONS*/
+.promotions_container{
+    width: 95vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Roboto' , cursive;
+}
+.promotion{
+    width: 45%;
+    outline: 1px solid #ccc;
+    border-radius: 10%;
+    display: flex;
+}
+.img_container{
+    width: 200px;
+}
+.img_promotion{
+    width: 100%;
+    height: 100%;
+    border-radius: 10% 0 0 10%;   
+}
+.promotion_container{
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.promotion_h1{
+    font-size: 18px;
+}
+#objetion{
+    color: #b8b5b5;
+    font-size: 11px;
+}
+.promotion_p{
+    font-size: 13px;
+}
+.promotion_buttom{
+    background-color: rgb(255, 192, 203);
+    height: 25%;
+    width: 35%;
+    border: none;
+    font-family: 'Roboto' , cursive;
+    font-size: 14px;
+    cursor: pointer;
+    outline: 2px solid #000;
+    font-weight: 700;
+}
+/*Responsive Desing*/
+@media (width<=1100px){
+    .promotion_buttom{
+        width: 50%;
+        font-size: 13px;
+        outline: 1px solid #000;
+        font-weight: 600;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+}
+@media(width<=870px){
+    .promotion{
+        height: 190px;
+    }
+    .promotion_h1{
+        font-size: 15px;
+    }
+    .promotion_p{
+        font-size: 10px;
+    }
+    .promotion_buttom{
+        height: 20%;
+        width: 50%;
+        font-size: 11px;
+    }
+}
+@media(width<=750px){
+    .promotion{
+        height: 170px;
+    }
+    .promotion_h1{
+        font-size: 15px;
+    }
+    #objetion{
+        font-size: 8px;
+    }
+    .promotion_p{
+        font-size: 10px;
+    }
+    .promotion_buttom{
+        height: 20%;
+        width: 50%;
+        font-size: 11px;
+    }
+}
+@media(width<=620px){
+    .promotion{
+        height: 150px;
+    }
+}
+@media(width<=600px){
+    .promotion_h1{
+        font-size: 13px;
+    }
+    #objetion{
+        font-size: 6px;
+    }
+    .promotion_p{
+        font-size: 7px;
+    }
+    .promotion_buttom{
+        font-size: 8px;
+    }
+}
+@media(width<=450px){
+    .promotion{
+        height: 130px;
+    }
+    .promotion_h1{
+        font-size: 11px;
+    }
+}
+@media(width<=400px){
+    .promotion{
+        height: 110px;
+    }
+    .promotion_h1{
+        font-size: 10px;
+    }
+    .promotion_p{
+        font-size: 5px;
+    }
+    .promotion_buttom{
+        display: none;
+    }
+}
